@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <Style>
+
+            div {
+                display: block;
+            }
+
+            .Header {
+                width: 100%;
+                top: 0;
+                z-index: 50;
+                position: relative;
+                min-width: 1024px;
+            }
+            
+            .Int {
+                background-color:#14805e;
+                height: 100%;
+                
+            }
+
+            .log {
+                height: 30px;
+                font-size: 0;
+                line-height: 0;
+                transition-timing-function: cubic-bezier(cubic-bezier(0.77, 0, 0.175, 1));
+                white-space: nowrap;
+                position: relative;
+                left: 0;
+                width: 100%;
+                transition: left .3s;
+            }
+
+            .User {
+                font-size: 12px;
+                height: 100%;
+                display: inline-flex;
+                -webkit-box-align: center;
+                align-items: center;
+                color: #9c9c9c;
+                cursor: pointer;
+                flex-shrink: 0;
+                transition-property: opacity;
+                transition-duration: .2s;
+            }
+
+            .HeaderModule {
+                width: calc(100% - env(safe-area-inset-left) - env(safe-area-inset-right));
+                z-index: 100;
+                min-width: 320px;
+                position: relative;
+                font-family: inherit;
+            }
+
+            .ProductHeaderWide {
+                display: flex;
+                margin-right: 15px;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                background-color: #333;
+                font-size: 12px;
+                line-height: 13px;
+                width: 100%;
+                height: 45px;
+            }
+
+            .ProductHeaderWide_Container {
+                white-space: nowrap;
+                overflow: hidden;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-item-align: center;
+                align-self: center;
+                position: relative;
+                -webkit-box-flex: 1;
+                -ms-flex: 1 1 100%;
+                flex: 1 1 100%;
+                display: flex;
+            }
+
+            .ProductHeaderWide_Link {
+                font-size: 12px;
+                height: 100%;
+                display: inline-flex;
+                -webkit-box-align: center;
+                align-items: center;
+                color: #9c9c9c;
+                cursor: pointer;
+                flex-shrink: 0;
+                transition-property: opacity;
+                transition-duration: .2s;
+                margin: 0 12px;
+
+            }
+
+        </Style>
+
+    </head>
+
+    <body>
+        <header>
+            <div class="Int">
+                <div class="Log">
+                    <div class="Saldo">PLAY THE GAME</div>
+                    <div class="User">Login</div>
+                </div>
+
+            </div>
+
+            <div class="Header">
+                <div class="HeaderModule">
+                    <div class="ProductHeaderWide">
+                        <div class="ProductHeaderWide_Container">
+                            <div class="HeaderScroller">
+                                <div class="HeaderScroller_LeftArrow"></div>
+                                <div class="HeaderScroller_HScroller">
+                                    <div class="ProductHeaderWide_ScrollContainer">
+                                        <div class="ProductHeaderWide_Link hm-HeaderMenuItem"></div>
+                                        <div class="ProductHeaderWide_Link">
+                                            <div class="HeadermenuItem_Link">Futebol</div>
+                                        </div>
+                                        <div class="ProductHeaderWide_Link">
+                                            <div class="HeadermenuItem_Link">Tênis</div>
+                                        </div>
+                                        <div class="ProductHeaderWide_Link">
+                                            <div class="HeadermenuItemLink">Basquete</div>
+                                        </div>
+                                        <div class="ProductHeaderWide_Link">
+                                            <div class="HeadermenuItem_Link">E-Sports</div>
+                                        </div>
+                                        <div class="ProductHeaderWide_Link">
+                                            <div class="HeadermenuItem_Link">F1</div>
+                                        </div>
+                                        <div class="ProductHeaderWide_Link">
+                                            <div class="HeadermenuItem_Link">Surf</div>
+                                        </div>
+                                        <div class="ProductHeaderWide_Link">
+                                            <div class="HeadermenuItem_Link">FIFA</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="HeaderScroller_RightArow"></div>
+                            </div>
+                        </div>
+                        <div class="ProductHeaderWide_RHS"></div>
+                    </div>
+                    <div class="MainHeaderWide"></div>
+
+
+                </div>
+               
+            </div>
+
+        </header>
+    </body>
+</html>
+

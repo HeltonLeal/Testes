@@ -1,0 +1,12 @@
+.ProductHeaderWide_ScrollContainer {
+    height: 30px;
+    font-size: 0;
+    line-height: 0;
+    transition-timing-function: cubic-bezier(cubic-bezier(0.77, 0, 0.175, 1));
+    white-space: nowrap;
+    position: relative;
+    left: 0;
+    width: 100%;
+    transition: left .3s;
+    
+}
